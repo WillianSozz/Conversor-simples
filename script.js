@@ -71,11 +71,11 @@ function retornaMultiplicador(input){
     }
 
     if (input == 'mih') {
-        multiplicador = 0.62
+        multiplicador = 1.61
     }
 
     if (input == 'kmh') {
-        multiplicador = 1.61
+        multiplicador = 0.62
     }
 
     if (input == 'cm') {
