@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de medidas</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<header>
+  <h1 id="title">Selecione sua unidade de medida:</h1>
+
+  <button class="btn-53" type="button" value="Litros" onclick="clickL()">
+    <div class="original">VOLUMES</div>
+    <div class="letters">
+      
+      <span>V</span>
+      <span>O</span>
+      <span>L</span>
+      <span>U</span>
+      <span>M</span>
+      <span>E</span>
+      <span>S</span>
+    </div>
+  </button>
+  <button class="btn-53" type="button" value="Velocidade" onclick="clickV()">
+    <div class="original">VELOCIDADE</div>
+    <div class="letters">
+      
+      <span>V</span>
+      <span>E</span>
+      <span>L</span>
+      <span>O</span>
+      <span>C</span>
+      <span>I</span>
+      <span>D</span>
+      <span>A</span>
+      <span>D</span>
+      <span>E</span>
+    </div>
+  </button>
+  <button class="btn-53" type="button" value="Medidas" onclick="clickM()">
+    <div class="original">Medidas</div>
+    <div class="letters">
+      
+      <span>M</span>
+      <span>E</span>
+      <span>D</span>
+      <span>I</span>
+      <span>D</span>
+      <span>A</span>
+      <span>S</span>
+    </div>
+  </button>
+  
+  
+  <br>
+  <input type="number" class="input" id="userInput" placeholder="Coloque a numeração...">
+</header>
+<body>
+
+    <div id="lit" class="radio-input"><br>
+    <label><input class="input1" type="radio" name="radio" id="cl"><strong>Colher de sopa para ml </strong> </input></label><br>
+    <label><input class="input1" type="radio" name="radio" id="xc"><strong>xícara de chá para ml</strong> </input></label></div>
+
+    <div id="med" class="radio-input"><br>
+    <label><input class="input1" type="radio" name="radio" id="pol"><strong>Cm para Polegadas</strong> </input></label><br>
+    <label><input class="input1" type="radio" name="radio" id="cm"><strong>Polegadas para Cm</strong> </input></label></div>
+
+    <div id="vel" class="radio-input"><br>
+    <label><input class="input1" type="radio" name="radio" id="kmh" ><strong>Mph para Km/h</strong> </input></label><br>
+    <label><input class="input1" type="radio" name="radio" id="mih" ><strong>km/h para Mph</strong> </input></label></div>
+    <br><br>
+
+    <div id="footer"><button class="button" onclick="convertRes(pegarValor(),retornaMultiplicador(verRadio()))">
+    <span class="button-content" id="button-content">CONVERTER </span>
+    </button>
+    <p class="resultElement">Resultado: <span class="resultElement" id="resultElement">0</span></p></div>
+  </body>
+  
+</body>
+</html>
