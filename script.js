@@ -137,6 +137,19 @@ function verRadio(){
     return controle;
 }
 
+// MODO ESCURO / CLARO ----------------------------
+
+
+function addStyle(){
+        const el = document.querySelector('link');
+        el.href = "./style2.css";
+}
+
+function addStyle2(){
+    const el = document.querySelector('link');
+    el.href = "./style.css";
+}
+
 
 // FORMULA RASCUNHO --------------------------------
 
