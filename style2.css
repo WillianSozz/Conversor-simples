@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    font-size: 20px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    
+    
+}
+
+/* ---------HEADER---------- */
+
+header {
+    margin-bottom: 20px;
+    background: linear-gradient(
+      82.3deg,
+      rgb(68, 68, 68) 10.8%,
+      rgb(29, 26, 70) 94.3%
+    );
+    padding: 20px;
+    color: white;
+}
+
+#title{
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+/* ----------BODY----------- */
+
+body {
+    text-align: center;
+    background-color: #302f2f;
+    color: #fff;
+}
+
+strong{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+div{
+    display: none;
+}
+
+input {
+    margin: 10px;
+    
+}
+
+h1 {
+    margin: 10px;
+    font-size: 50px;
+}
+
+button {
+    margin-bottom: 20px;
+    
+}
+
+/* ---------FOOTER--------- */
+
+.resultElement{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+#footer{
+    display: none;
+}
+
+/* --------NUMERAÇAO--------- */
+
+.input {
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+    text-align: center;
+  }
+  
+  .input:focus {
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    background-color: rgb(201, 201, 201);
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+
+
+/* ----------BUTTON HEADER----------- */
+
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-53 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background: linear-gradient(
+      82.3deg,
+      rgb(68, 68, 68) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+  background-image: none;
+  color: white;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 10%;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.btn-53:disabled {
+  cursor: default;
+}
+
+.btn-53:-moz-focusring {
+  outline: auto;
+}
+
+.btn-53 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-53 [hidden] {
+  display: none;
+}
+
+.btn-53 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-53 .original {
+  background: #302f2f;
+  color: rgb(255, 255, 255);
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.btn-53:hover .original {
+  transform: translateY(100%);
+}
+
+.btn-53 .letters {
+  display: inline-flex;
+}
+
+.btn-53 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+}
+
+.btn-53 span:nth-child(2n) {
+  transform: translateY(15px);
+}
+
+.btn-53:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-53:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.btn-53:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.btn-53:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.btn-53:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.btn-53:hover span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
+.btn-53:hover span:nth-child(7) {
+    transition-delay: 0.6s;
+}
+
+.btn-53:hover span:nth-child(8) {
+    transition-delay: 0.7s;
+}
+.btn-53:hover span:nth-child(9) {
+    transition-delay: 0.8s;
+}
+.btn-53:hover span:nth-child(10) {
+    transition-delay: 0.9s;
+}
+
+/* --------RADIO BUTTON-------- */
+
+.input1 {
+    -webkit-appearance: none;
+   /* remove default */
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+    box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
+    background-color: hsla(0,0%,0%,.2);
+    background-image: -webkit-radial-gradient( rgb(0, 165, 248) 0%, rgb(0, 0, 0) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );
+    background-repeat: no-repeat;
+    -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+      -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+    outline: none;
+  }
+  
+  .input1:checked {
+    -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+      -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+  }
+  
+  .input1:active {
+    -webkit-transform: scale(1.5);
+    -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+  }
+  
+  
+  
+  /* The up/down direction logic */
+  
+  .input1,
+  .input1:active {
+    background-position: 0 24px;
+  }
+  
+  .input1:checked {
+    background-position: 0 0;
+  }
+  
+  .input1:checked ~ .input1,
+  .input1:checked ~ .input1:active {
+    background-position: 0 -24px;
+  }
+
+/* --------BUTTON FOOTER-------- */
+
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgb(68, 68, 68) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  
